@@ -38,7 +38,3 @@ This Node.js script measures broadband speed by downloading a file from a specif
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
