@@ -101,7 +101,7 @@ const calculateDailyAverage = async () => {
     try {
         const avgFilePath =  path.join(__dirname, 'averages.json');
         const rawData = await fs.promises.readFile(logFilePath);
-        const log = JSON.parse(rawData);
+        const logs = JSON.parse(rawData);
         const dailyAvg = {};
 
         logs.forEach(entry => {
